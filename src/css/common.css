@@ -33,3 +33,45 @@ img {
  margin: auto;
   text-align: center;
 }
+
+.geo{
+  text-align: right;
+}
+.collum{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(6, 45, 63);
+  text-shadow: 0 0 30px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+.input{
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+  box-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border-radius: 25px;
+}
+
+.button {
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(6, 45, 63);
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+  border-radius: 25px;
+  background-color: #b8e8f8;
+}

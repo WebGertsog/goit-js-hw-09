@@ -28,7 +28,7 @@ const options = {
 
       if(selectedTime <= Date.now()) {
         startBtn.setAttribute('disabled', true);
-        Notify.failure("Please choose a date in the future!");
+        Notify.failure('Please choose a date in the future!');
         return
       }  
       input.setAttribute('disabled', true);
